@@ -40,3 +40,29 @@ build/*
 *.exe
 *.out
 *.app
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Analysis results
+analysis/results/*.png
+analysis/results/*.json
+analysis/results/*.txt
+analysis/results/*.md
